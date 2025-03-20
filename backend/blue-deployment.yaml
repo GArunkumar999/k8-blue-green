@@ -19,7 +19,6 @@ spec:
       version: blue
   template:
     metadata:
-      namespace: expense
       labels:
         app: backend
         tier: backend
