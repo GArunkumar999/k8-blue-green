@@ -28,6 +28,13 @@ spec:
       containers:
       - name: backend
         image: arun596/blue:1.0.0
+        resources:
+          requests: #soft limit
+            memory: "512Mi"
+            cpu: "500m"
+          limits: # hard limit 
+            memory: "1Gi"
+            cpu: "1"
         envFrom:
         - configMapRef:
             name: backend
