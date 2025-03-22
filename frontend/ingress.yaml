@@ -12,7 +12,7 @@ metadata:
 spec:
   ingressClassName: alb
   rules:
-  - host: "expense-dev.daws82s.online"
+  - host: "expense-dev.devopslearning.fun"
     http:
       paths:
       - pathType: Prefix
